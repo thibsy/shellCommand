@@ -3,7 +3,7 @@
 # the ${THIBSY_VERSION} is a constant that holds the current version of
 # this command. it will be used when calling the '--version' flag.
 # please increase this according to https://semver.org/.
-THIBSY_VERSION="1.0.0"
+THIBSY_VERSION="1.0.1"
 
 # if the thibsy command cannot be called it wasn't installed properly and
 # the script is halted.
@@ -28,7 +28,7 @@ source "${THIBSY_INSTALL_DIR}/util/command-helper.sh"
 
 # the ${THIBSY_COMMAND_FILES} is a constant that should be used when
 # searching for something in the command files.
-THIBSY_COMMAND_FILES=($(_thibsy_get_command_files ${THIBSY_INSTALL_DIR}))
+THIBSY_COMMAND_FILES=($(_thibsy_get_command_files "${THIBSY_INSTALL_DIR}/src"))
 
 # DESC: this function can be considered the bootloader of all commands
 #		within this repository. it checks if the given command exists,

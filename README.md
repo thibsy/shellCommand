@@ -42,7 +42,7 @@ new (and existing) commands must follow these rules, at least the **must**-state
 
 ## Example
 
-you can have a look at a sample command located in [`example.cmd.sh`](./src/example.cmd.sh).
+you can have a look at a sample command located in [`example.cmd.sh`](example.cmd.sh).
 
 you'll find there are three essential functions called:
 
