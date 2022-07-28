@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-git clone git@github.com:thibsy/ShellCommand.git ~/.thibsy
+git clone git@github.com:thibsy/shellCommand.git ~/.thibsy
 cd ~/.thibsy 
 ./install.sh
 ```
